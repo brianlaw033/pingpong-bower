@@ -3,8 +3,8 @@ function Addminus(skinName) {
 }
 Addminus.prototype.addMinus = function(num1,mathSign,num2) {
   var output = [];
-  var num1 = parseInt(num1);
-  var num2 = parseInt(num2);
+  num1 = parseInt(num1);
+  num2 = parseInt(num2);
   if (mathSign === '+'){
       output.push(num1+num2);
     } else if (mathSign === '-') {
